@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XCoreLab - Apple Apps</title>
+    <meta name="description" content="Discover amazing Apple apps by XCoreLab. Browse features, read descriptions, and get in touch with us.">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="imgs/xcorelab-logo.png" alt="XCoreLab Logo" class="logo-image">
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apps" class="nav-link">Apps</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="eula.html" class="nav-link">EULA</a>
+                </li>
+                <li class="nav-item">
+                    <a href="privacy.html" class="nav-link">Privacy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="terms.html" class="nav-link">Terms</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to XCoreLab</h1>
+                <p class="hero-subtitle">Creating exceptional Apple apps that enhance your digital experience</p>
+                <div class="hero-buttons">
+                    <a href="#apps" class="btn btn-primary">Explore Apps</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="app-showcase">
+                    <div class="app-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Section -->
+    <section id="apps" class="apps-section">
+        <div class="container">
+            <h2 class="section-title">Our Apps</h2>
+            <p class="section-subtitle">Discover our collection of innovative Apple applications</p>
+            
+            <div class="apps-grid">
+                <div class="app-card" data-app="worktrax">
+                    <div class="app-icon">
+                        <img src="imgs/worktrax-app-icon.png" alt="WorkTrackX App Icon" class="app-icon-image">
+                    </div>
+                    <h3>WorkTrackX</h3>
+                    <p>Powerful time tracking and expense management for freelancers and small businesses</p>
+                    <div class="app-features">
+                        <span class="feature-tag">Time Tracking</span>
+                        <span class="feature-tag">Expense Management</span>
+                        <span class="feature-tag">iCloud Sync</span>
+                    </div>
+                    <button class="btn btn-outline" onclick="showAppDetails('worktrax')">Learn More</button>
+                </div>
+
+                <div class="app-card" data-app="tipper">
+                    <div class="app-icon">
+                        <img src="imgs/tipper-app-icon.png" alt="TipperX App Icon" class="app-icon-image">
+                    </div>
+                    <h3>TipperX</h3>
+                    <p>Lightning-fast tip calculator with bill splitting and global tipping guides</p>
+                    <div class="app-features">
+                        <span class="feature-tag">Tip Calculator</span>
+                        <span class="feature-tag">Bill Splitting</span>
+                        <span class="feature-tag">Global Guide</span>
+                    </div>
+                    <button class="btn btn-outline" onclick="showAppDetails('tipper')">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">Have questions or feedback? We'd love to hear from you!</p>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>contact@xcorelab.dev</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-globe"></i>
+                        <div>
+                            <h4>Website</h4>
+                            <p>www.xcorelab.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Austin, TX</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>XCoreLab</h3>
+                    <p>Creating exceptional Apple apps that enhance your digital experience.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#apps">Apps</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="eula.html">EULA</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="eula.html">End User License Agreement</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 XCoreLab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- App Details Modal -->
+    <div id="appModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
