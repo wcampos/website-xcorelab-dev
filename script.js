@@ -38,7 +38,7 @@ const closeBtn = document.querySelector('.close');
 const appDetails = {
     worktrax: {
         name: 'WorkTrackX',
-        icon: 'imgs/worktrax-app-icon.png',
+        icon: 'imgs/worktrax-app-icon.png?v=2',
         description: 'WorkTrackX is a powerful time tracking and expense management application designed for freelancers, contractors, and small businesses. It helps you track work hours, manage expenses, and monitor payment statuses across multiple projects and clients.',
         features: [
             'Track work hours with flexible time increments',
