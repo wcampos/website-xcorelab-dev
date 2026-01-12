@@ -37,9 +37,9 @@ const closeBtn = document.querySelector('.close');
 // App data for the modal
 const appDetails = {
     worktrax: {
-        name: 'WorkTrax',
+        name: 'WorkTrackX',
         icon: 'imgs/worktrax-app-icon.png',
-        description: 'WorkTrax is a powerful time tracking and expense management application designed for freelancers, contractors, and small businesses. It helps you track work hours, manage expenses, and monitor payment statuses across multiple projects and clients.',
+        description: 'WorkTrackX is a powerful time tracking and expense management application designed for freelancers, contractors, and small businesses. It helps you track work hours, manage expenses, and monitor payment statuses across multiple projects and clients.',
         features: [
             'Track work hours with flexible time increments',
             'Comprehensive expense management with categories',
@@ -62,9 +62,9 @@ const appDetails = {
         price: 'Available on the App Store'
     },
     tipper: {
-        name: 'Tipper',
+        name: 'TipperX',
         icon: 'imgs/tipper-app-icon.png',
-        description: 'Tipper is a modern, lightning-fast tip calculation app for iOS that focuses on clarity, convenience, and customization. Whether you\'re dining solo, with friends, or traveling abroad, Tipper helps you calculate tips and share bills effortlessly.',
+        description: 'TipperX is a modern, lightning-fast tip calculation app for iOS that focuses on clarity, convenience, and customization. Whether you\'re dining solo, with friends, or traveling abroad, TipperX helps you calculate tips and share bills effortlessly.',
         features: [
             'Real-time tip calculation with smooth slider',
             'Flexible rounding options for easy payment',

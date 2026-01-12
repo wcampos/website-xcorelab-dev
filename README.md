@@ -16,8 +16,8 @@ A modern, responsive website showcasing Apple applications with comprehensive ap
 
 ## 📱 Apps Featured
 
-1. **WorkTrax** - Powerful time tracking and expense management for freelancers and small businesses
-2. **Tipper** - Lightning-fast tip calculator with bill splitting and global tipping guides
+1. **WorkTrackX** - Powerful time tracking and expense management for freelancers and small businesses
+2. **TipperX** - Lightning-fast tip calculator with bill splitting and global tipping guides
 
 ## 🚀 Getting Started
 
@@ -85,8 +85,8 @@ website-xcorelab-dev/
 ├── script.js          # JavaScript functionality
 ├── imgs/              # Images directory
 │   ├── xcorelab-logo.png  # Company logo
-│   ├── worktrax-app-icon.png  # WorkTrax app icon
-│   └── tipper-app-icon.png   # Tipper app icon
+│   ├── worktrax-app-icon.png  # WorkTrackX app icon
+│   └── tipper-app-icon.png   # TipperX app icon
 └── README.md          # This file
 ```
 
